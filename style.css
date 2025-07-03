@@ -25,7 +25,7 @@ h1{
   animation: example;
   animation-duration: 25s;
   animation-iteration-count: infinite;
-  animation-delay: 1.5s;
+  animation-delay:1.5s ;
   
 }
 
@@ -71,4 +71,15 @@ h1{
   50% {color: #e39815}
   75% {color: #da9319} 
   100% {color: #996202; left:100%}
+}
+
+#homepagelink:hover{
+  color: #996202;
+  transform: scale(1.5);
+}
+
+
+.outerbox{
+  display: flex;
+  flex-direction: row;
 }
